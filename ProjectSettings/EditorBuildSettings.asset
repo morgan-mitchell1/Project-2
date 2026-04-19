@@ -11,6 +11,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/BTM_Assets/BTM_Items_Gems/Scenes/Menu.unity
     guid: b1b10a84a69023b47bdc263ef1e50b3e
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 1a9dabef08e550b40a51dd6bc26fd69a
+  - enabled: 1
+    path: Assets/Scenes/Scene_1.unity
+    guid: 6e63b2d3febe12c46bd9519a97736edb
+  - enabled: 1
+    path: Assets/Scenes/Info.unity
+    guid: 796564cfd4e068e4881229c212ff0d60
+  - enabled: 1
+    path: Assets/Scenes/Game_Over.unity
+    guid: 8a445e9155f7596499e52e44bcffc974
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
