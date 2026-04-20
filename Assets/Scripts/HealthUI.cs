@@ -6,6 +6,7 @@ public class HealthUI : MonoBehaviour
 {
     private int health = 100;
     public TextMeshProUGUI text;
+    public string thisLevel;
 
     public void decreaseHealth()
     {
@@ -13,7 +14,9 @@ public class HealthUI : MonoBehaviour
         text.text = "Health: " + health;
         if (health <= 0)
         {
-            SceneManager.LoadScene("Game_Over");
+            GameOver.LevelToLoad = thisLevel;
+            FindFirstObjectByType<GemsUI>()?.resetGems();
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
